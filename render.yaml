@@ -14,7 +14,6 @@ services:
   - type: web
     name: aro-frontend
     env: static
-    region: ohio
     rootDir: frontend
     buildCommand: "npm install && npm run build"
     staticPublishPath: "./build"
